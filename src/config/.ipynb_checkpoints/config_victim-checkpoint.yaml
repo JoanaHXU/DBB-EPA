@@ -1,0 +1,21 @@
+dqn:
+    BATCH_SIZE: 512
+    GAMMA: 0.99
+    EPS_START: 1.0
+    EPS_END: 0.01
+    EPS_DECAY: 0.996
+    TARGET_UPDATE: 10
+    LEARNING_RATE: 0.001
+ppo:
+    BATCH_SIZE: 512
+    GAMMA: 0.99 
+    LAMBD: 0.95
+    CLIP: 0.2 
+    LEARNING_RATE: 0.001
+vpg:
+    GAMMA: 0.99 
+    MAX_LEN: 500 
+    LEARNING_RATE: 0.001
+a2c:
+    GAMMA: 0.99
+    LEARNING_RATE: 0.001

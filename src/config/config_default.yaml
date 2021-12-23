@@ -1,0 +1,10 @@
+AE:
+  EMBEDDING_SIZE: 100
+  LEN_TRAJECTORY: 1000
+  MEMORY_SIZE: 5000
+ATTACK:
+  TARGET_FOLDER: "target"
+  TARGET_TITLE: "lander_target_t1.pkl"
+  TARGET_POLICY_TITLE: "lander_target_policy"
+VICTIM:
+  TMAX: 3000
